@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  p
+    | home |
+    | 
+    a(href='about') about 
+    | | 
+    a(href='users') users
+  p.
+  p #{message}

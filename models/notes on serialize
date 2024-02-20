@@ -1,0 +1,12 @@
+Command to run to create a User model file. Keep the model name in small-cases.
+
+sequelize model:generate 
+    --name user 
+    --attributes 
+        name:string,
+        email:string,
+        phone:string,
+        password:string,
+        status:string,
+        last_login_at:date,
+        last_ip_address:string
